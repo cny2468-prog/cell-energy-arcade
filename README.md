@@ -1,4 +1,4 @@
-# 세포 에너지 아케이드
+# 세포 대사 브레이커
 
 [게임 실행](https://cny2468-prog.github.io/cell-energy-arcade/)
 
