@@ -22,7 +22,7 @@ const ITEM_TYPES={
  narrow:{label:'→←',name:'패들 축소',title:'위험! 패들 축소 · 10초',good:false,text:'패들 축소 10초'},
  fast:{label:'FAST',name:'급가속',title:'위험! 급가속 · 8초',good:false,text:'공 속도 25% 증가 · 8초'}
 };
-const config=()=>mode==='hard'?{times:[120,90,60],speeds:[390,480,570],lives:3,quiz:15,widths:[88,72,58]}:{times:[150,120,90],speeds:[330,410,490],lives:5,quiz:20,widths:[100,84,68]};
+const config=()=>mode==='hard'?{times:[120,90,60],speeds:[468,576,684],lives:3,quiz:15,widths:[88,72,58]}:{times:[150,120,90],speeds:[396,492,588],lives:5,quiz:20,widths:[100,84,68]};
 const LEVELS=[{columns:6,rows:3,brickW:68,brickH:40,gapX:6,gapY:12,questions:3},{columns:7,rows:4,brickW:58,brickH:33,gapX:6,gapY:10,questions:4},{columns:8,rows:5,brickW:50,brickH:27,gapX:6,gapY:9,questions:5}];
 const level=()=>LEVELS[stage];
 const speed=()=>config().speeds[stage]*(speedEffect?(speedEffect.kind==='slow'?.75:1.25):1);
