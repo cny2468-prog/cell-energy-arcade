@@ -1,7 +1,7 @@
 'use strict';
 // Resolve the current release before loading game assets, even from a cached page.
 (async()=>{
- const base=new URL('.',document.currentScript.src),fallback='20261120-speed';
+ const base=new URL('.',document.currentScript.src),fallback='20261120-speed2';
  let version=fallback;
  if(location.protocol!=='file:'){
   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),4000);
